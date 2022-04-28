@@ -75,7 +75,7 @@ aside {
   border-radius: 30px;
 }
 
-.download-cv > a {
+.download-cv>a {
   color: white;
   text-decoration: none;
 }
@@ -105,6 +105,7 @@ aside {
 #box1:hover {
   box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.083);
 }
+
 #box2:hover {
   box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.083);
 }
@@ -124,12 +125,11 @@ aside {
 .block {
   display: flex;
   padding: 40px;
-  height: 70vh;
+  height: 55vh;
 }
 
 .education,
 .experience {
-  margin-left: 3px;
   width: 50%;
   height: 50%;
 }
@@ -146,7 +146,7 @@ aside {
   border: none;
   outline: none;
   background: #e4e4e48f;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 #client:hover {
@@ -154,38 +154,9 @@ aside {
   font-weight: bold;
 }
 
-.for-service, .service{
+.service {
   padding: 40px;
   margin-bottom: -8vh;
-}
-
-.service1 {
-  display: flex;
-  padding: 40px;
-}
-
-.left,
-.right {
-  margin: 15px;
-}
-
-#graphic,
-#mobile,
-#develop,
-#design {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.g,
-.m,
-.d,
-.dv {
-  border-radius: 50%;
-  padding: 10px;
-  width: 40px;
-  height: 40px;
 }
 
 .txt-center {
@@ -211,11 +182,16 @@ aside {
   align-items: center;
 }
 
-.social-media > a > i {
+.social-media>a>i {
   padding: 10px;
   font-size: 40px;
   color: white;
 }
+
+.social-media>a>i:hover {
+  color: rgb(255, 0, 0);
+}
+
 .pic {
   margin: 10px;
   padding: 10px;
@@ -223,7 +199,9 @@ aside {
   width: 40px;
   border-radius: 50%;
 }
+
 @media screen and (max-width: 977px) {
+
   aside,
   .content {
     width: 100%;
@@ -237,7 +215,7 @@ aside {
     display: flex;
   }
 
-  #box1{
+  #box1 {
     width: 40%;
     height: auto;
     margin-right: 30px;
@@ -249,13 +227,15 @@ aside {
     margin-right: 30px;
   }
 }
+
 @media screen and (max-width: 768px) {
+
   .block,
   .service1 {
     flex-direction: column;
   }
 
-  #box1{
+  #box1 {
     width: 40%;
     height: auto;
     margin-right: 30px;
@@ -287,7 +267,9 @@ aside {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 568px) {
+
   .block,
   .service1 {
     flex-direction: column;
@@ -332,7 +314,9 @@ aside {
     margin-left: 25px;
   }
 }
+
 @media screen and (max-width: 480px) {
+
   .block,
   .service1 {
     flex-direction: column;
@@ -341,14 +325,17 @@ aside {
   .service1 {
     display: flex;
   }
+
   .content {
     width: 92%;
   }
+
   .experience,
   .education,
   aside {
     width: 100%;
   }
+
   .left,
   .right {
     width: 100%;

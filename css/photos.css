@@ -75,7 +75,7 @@ aside {
   border-radius: 30px;
 }
 
-.download-cv > a {
+.download-cv>a {
   color: white;
   text-decoration: none;
 }
@@ -135,11 +135,16 @@ aside {
   align-items: center;
 }
 
-.social-media > a > i {
+.social-media>a>i {
   padding: 10px;
   font-size: 40px;
   color: white;
 }
+
+.social-media>a>i:hover {
+  color: rgb(255, 0, 0);
+}
+
 
 .pic {
   margin: 10px;
@@ -238,6 +243,7 @@ a {
 
 /* Responsive */
 @media screen and (max-width: 977px) {
+
   aside,
   .content {
     width: 100%;
@@ -267,6 +273,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+
   .content,
   .first,
   .second {
@@ -276,6 +283,7 @@ a {
   .content {
     margin-left: 30px;
   }
+
   .p1,
   .p2,
   .p3,
@@ -285,7 +293,9 @@ a {
     margin-right: 30px;
   }
 }
+
 @media screen and (max-width: 568px) {
+
   .content,
   .first,
   .second {
@@ -295,6 +305,7 @@ a {
   .content {
     margin-left: 30px;
   }
+
   .p1,
   .p2,
   .p3,
@@ -314,7 +325,9 @@ a {
   }
 
 }
+
 @media screen and (max-width: 450px) {
+
   .content,
   .first,
   .second {
